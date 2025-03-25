@@ -8,3 +8,9 @@ Outputs columns and number of values there
 Outputs first 5 rows
 
 ![img2](imgs/img2.png)
+
+``` print(df.tail()) ```
+Outputs last 5 rows
+
+![img2](imgs/img2.png)
+
