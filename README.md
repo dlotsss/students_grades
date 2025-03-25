@@ -12,5 +12,9 @@ Outputs first 5 rows
 ``` print(df.tail()) ```
 Outputs last 5 rows
 
-![img2](imgs/img2.png)
+![img3](imgs/img3.png)
 
+``` print(df.describe()) ```
+Outputs basic statistics such as mean, std, etc.
+
+![img4](imgs/img4.png)
