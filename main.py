@@ -3,8 +3,8 @@ df = pd.read_csv('Students_Grading_Dataset.csv')
 df.info() #info about columns and number of values there 
 print(df.head()) #first 5 rows
 print(df.tail()) #last 5 rows
-
 print(df.describe())   # basic statistics (mean, std, etc.) - using count we understood that there 516 missing values (10%), so we need to replace it. it is to many to delete 
+
 print(df['Attendance (%)'].skew()) #because it is -0.03859979161769357 which is nearly 0 (<0.5 and >-0.5), we assume the data to be balanced; so we will fill missing values with mean
 df['Attendance (%)'] = df['Attendance (%)'].fillna(df['Attendance (%)'].mean()) #now there are no missing values 
 
